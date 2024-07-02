@@ -383,7 +383,7 @@ rec {
         # which our initrd builder can't currently do easily.
         USB_XHCI_TEGRA m
       '';
-      target = "Image";
+      target = "vmlinuz.efi";
     };
     gcc = {
       arch = "armv8-a";
