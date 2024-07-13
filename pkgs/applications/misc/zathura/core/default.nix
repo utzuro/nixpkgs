@@ -1,4 +1,5 @@
 {
+  pkgs,
   lib,
   stdenv,
   fetchFromGitHub,
@@ -31,10 +32,10 @@ stdenv.mkDerivation (finalAttrs: {
   version = "0.5.6";
 
   src = fetchFromGitHub {
-    owner = "pwmt";
-    repo = "zathura";
-    rev = finalAttrs.version;
-    hash = "sha256-lTEBIZ3lkzjJ+L1qecrcL8iseo8AvSIo3Wh65/ikwac=";
+    owner = "utzuro";
+    repo = "zathura-numerator";
+    rev = "v0.1";
+    sha256 = "sha256-exijeu3+3Grx2MJ8IFgj8C+D+SdXPBdp6ior4FrZ830=";
   };
 
   outputs = [
